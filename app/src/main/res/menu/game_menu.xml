@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Refresh" android:id="@+id/refresh"/>
+    <item android:title="Level">
+    <menu>
+        <group android:checkableBehavior="single">
+            <item android:id="@+id/easy" android:title="Easy" android:checked="true"/>
+            <item android:id="@+id/medium" android:title="Intermediate"/>
+            <item android:id="@+id/expert" android:title="Expert"/>
+        </group>
+    </menu>
+    </item>
+    <item android:title="Hint" android:id="@+id/hint"/>
+    <item android:title="Instructions" android:id="@+id/instruct"/>
+</menu>
